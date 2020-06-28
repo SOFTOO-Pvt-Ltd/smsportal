@@ -1,0 +1,26 @@
+.loginPage {
+  position: relative; }
+  .loginPage .container {
+    height: 100vh; }
+  .loginPage .loginContainer {
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%; }
+    .loginPage .loginContainer .loginBody {
+      padding: 100px 0; }
+      .loginPage .loginContainer .loginBody .loginForm {
+        width: 485px;
+        margin: 100px auto 0; }
+        .loginPage .loginContainer .loginBody .loginForm .btn {
+          width: 100%;
+          margin-top: 10px;
+          height: 50px; }
+        .loginPage .loginContainer .loginBody .loginForm .alert {
+          margin-top: 15px; }
